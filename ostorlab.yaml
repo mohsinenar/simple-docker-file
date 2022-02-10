@@ -1,5 +1,5 @@
 kind: Agent
-name: Somthing
+name: somthing
 version: 0.0.1
 description: "description."
 in_selectors:
