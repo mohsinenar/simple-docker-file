@@ -1,2 +1,2 @@
 FROM ubuntusss
-ENTRYPOINT ["/bin/bash", "-c", "echo hello"]
+ENTRYPOINT ["/bin/bash", "-c", "v0.0.9"]
