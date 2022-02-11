@@ -1,6 +1,5 @@
 kind: Agent
 name: somthing
-version: 8.0.0
 description: "description."
 in_selectors:
   - v3.asset.ip
