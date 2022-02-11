@@ -1,2 +1,13 @@
+kind: Agent
 name: somthing
 version: 2.0.0
+description: "description."
+in_selectors:
+  - v3.asset.ip
+  - v3.asset.port
+out_selectors:
+  - v3.report.vulnerability
+  - v3.report0.vulnerabilityv2
+
+docker_file_path : Dockerfile
+docker_build_root : .
