@@ -1,3 +1,3 @@
-FROM ubuntusss
+FROM ubuntu
 COPY . /agent
-ENTRYPOINT ["/bin/bash", "-c", "v0.0.10"]
+ENTRYPOINT ["sleep","10h"]
